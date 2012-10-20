@@ -88,6 +88,7 @@ module ConstantContact
             @connection.password = password if password
             @connection.timeout = timeout if timeout
             @connection.user = "#{api_key}%#{user}" if user
+            @connection.ssl_options = ssl_options if ssl_options
           end
           
           @connection
