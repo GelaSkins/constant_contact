@@ -4,7 +4,7 @@ require 'active_resource'
 require 'builder'
 require 'cgi' unless defined?(CGI) && defined?(CGI::escape)
 require 'net/http'
-require 'net/https'
+#require 'net/https'
 require File.join(directory, 'constant_contact', 'formats')
 require File.join(directory, 'constant_contact', 'base')
 require File.join(directory, 'constant_contact', 'list')
